@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+
+#logo {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 1rem;
+  height: 10rem;
+}
+body {
+  background-image: url("gambar/Bo.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+#body {
+  background-image: url(gambar/Bo.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+#testimoni {
+  margin-top:0.5cm; 
+  margin-bottom:0;
+  color: white;
+}
+.container {
+  margin-top: 90px;
+  margin-left: 120px;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 500px;
+  border-radius: 20px;
+  padding: 40px;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+.title {
+  margin-top: 0;
+  display: block;
+  text-align: center;
+  color: #4d84e3;
+}
+
+.title span {
+  display: block;
+  text-align: center;
+  color: white;
+}
+
+.input label {
+  color: white;
+}
+
+.input select,
+.input input {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 7px;
+  background-color: rgba(255, 255, 255, 0.25);
+  color: white;
+  border: 0;
+  font-size: 20px;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+.input select {
+  border-right: 13px solid #00000000;
+}
+
+.input select option {
+  color: black;
+}
+
+.submit-button {
+  margin-top: 50px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+  letter-spacing: 5px;
+  font-weight: bold;
+  background-color: #4d84e3;
+}
+
+.input {
+  margin-bottom: 20px;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+#teamLogo {
+  position:fixed;
+  right: 1%;
+  top: 2%;
+  opacity: 60%;
+}
+
+#contact,
+#nama {
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+.footer {
+  margin-top: 20px;
+  bottom: 0%;
+
+  color: #eaeaea;
+  text-align: center;
+  font-size: 12px;
+}
+
+#mythicG {
+  position:relative;
+  top:24.5cm;
+  left:0.3cm;
+  height: 100px;
+}
+#mythic {
+  position:absolute;
+  top:21.35cm;
+  left:0.3cm;
+  height: 100px;
+}
+#legend {
+  position:absolute;
+  top:18.18cm;
+  left:0.4cm;
+  height: 100px;
+}
+#epic {
+  position:absolute;
+  top:15.01cm;
+  left:0.45cm;
+  height: 100px;
+}
+#grandmaster {
+  position:absolute;
+  top:11.84cm;
+  left:0.25cm;
+  height: 100px;
+}
+#master {
+  position:absolute;
+  top:8.67cm;
+  left:0.35cm;
+  height: 100px;
+}#elite {
+  position:absolute;
+  top:5.5cm;
+  left:0.3cm;
+  height: 100px;
+}

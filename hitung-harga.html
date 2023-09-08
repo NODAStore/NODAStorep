@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jasa Joki Mobile Legend</title>
+    <link rel="shortcut icon" href="gambar/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="body">
+    <img id="legend" src="gambar/Legend.webp"/>
+    <img id="mythic" src="gambar/Mythic.webp"/>
+    <img id="mythicG" src="gambar/Mythical_Glory.webp"/>
+    <img id="grandmaster" src="gambar/Grandmaster.webp"/>
+    <img id="master" src="gambar/Master.webp"/>
+    <img id="epic" src="gambar/Epic.webp"/>
+    <img id="elite" src="gambar/Elite.webp"/>
+    <a href="index.html">
+      <img id="teamLogo" src="gambar/Hactiserve.png" />
+    </a>
+    <div class="container">
+      <form onsubmit="gasJoki(event)">
+        <img id="logo" src="mlbb.png" alt="" />
+        <h1 class="title">JOKI<br /><span>MLBB</span></h1>
+
+        <div class="input">
+          <label class="label" for="rank">Rank Anda</label>
+          <select id="rank" name="rank" onchange="hitungHarga(event)">
+            <option value="Warrior" data-thumbnail="warrior.webp">
+              Warrior
+            </option>
+            <option value="Elite">Elit</option>
+            <option value="Master">Master</option>
+            <option value="Grand Master">Grand Master</option>
+            <option value="Epic">Epic</option>
+            <option value="Legend">Legend</option>
+            <option value="Mythic">Mytical</option>
+          </select>
+        </div>
+
+        <div class="input">
+          <label class="label" for="jokirank">Joki Sampe Mana?</label>
+          <select id="jokirank" name="jokirank" onchange="hitungHarga(event)">
+            <option value="Elite">Elit</option>
+            <option value="Master">Master</option>
+            <option value="Grand Master">Grand Master</option>
+            <option value="Epic">Epic</option>
+            <option value="Legend">Legend</option>
+            <option value="Mythic">Mytical</option>
+            <option value="Mythic Glory">Mytical Glory</option>
+          </select>
+        </div>
+
+        <div class="input">
+          <label for="totalHarga">TOTAL HARGA</label>
+          <input
+            type="text"
+            id="totalHarga"
+            name="totalHarga"
+            value="10000"
+            readonly
+          />
+
+          <button type="submit" class="submit-button">GAS JOKI</button>
+        </div>
+      </form>
+    </div>
+    <div class="footer">
+      <p class="copy">All assets credits goes to their respectful owners</p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

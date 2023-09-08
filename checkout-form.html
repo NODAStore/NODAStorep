@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CHECKOUT BOX</title>
+    <link rel="shortcut icon" href="gambar/favicon.ico" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap"
+    rel="stylesheet"/>
+  </head>
+  <body id="body2">
+    <a href="index.html">
+      <img id="teamLogo" src="gambar/Hactiserve.png" alt="" />
+    </a>
+    <div class="container">
+      <h1 class="title">CHECK OUT FORM</span></h1>
+      <form onsubmit="submitted(event)">
+        <div class="input">
+          <label for="name">Nama:</label>
+          <input
+          type="text"
+          id="outputNama"
+          name="name"
+          value=""
+          readonly
+        />
+        </div>
+        <div class="input">
+          <label for="No Hp">No Telepon:</label>
+          <input
+          type="text"
+          id="No Hp"
+          name="No Hp"
+          value=""
+          readonly
+        />
+        </div>
+        <div class="input">
+          <label for="Total Harga">Total Harga:</label>
+          <input
+          type="text"
+          id="Total Harga"
+          name="Total Harga"
+          value=""
+          readonly
+        />
+        </div>
+        <div>
+          <button onclick="alert(`tim Joki akan segera menghubungi anda! Terima kasih`); kembaliHome()" class="submit-button">LANJUT</button><span></span>
+          <button onclick="kembali()" class="submit-button">BATALKAN</button>
+        </div>
+      </form>
+    </div>
+    <div class="footer">
+      <p class="copy">All assets credits goes to their respectful owners</p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
